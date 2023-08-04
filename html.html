@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <h1>Keerthana.C</h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="frames-container">
+    <div class="frame" id="about">
+      <div class="container">
+        <h2><u>About Me</u></h2>
+        <img align="left" src="C:\Users\KEERTHANA\Desktop\New folder\R20CA156.jpg" width="400" height="300">
+        
+        <h3> Hi!I'm Keerthana</h3>
+        <p>A student in Christ University.I am in the process of learning new skills and technologies which is necessary to achieve my goals.</p>
+        <p>I'm currently pursuing masters in computer appliction in Christ University</p>
+
+      </div>
+    </div>
+
+    <div class="frame" id="education">
+      <div class="container">
+        <h2><u>Education</u></h2>
+        <ul>
+          <li>
+            <h3>Pursuing Masters of Computer Application</h3>
+            <p>Christ University, Bengaluru, India</p>
+          </li>
+          <li>
+            <h3>Bachelor of Computer Applications</h3>
+            <p>Reva University, India</p>
+          </li>
+          <li>
+            <h3>Pre-University</h3>
+            <p>M.E.S.Kishora Kendra P.U college,Bengaluru,India</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="frame" id="skills">
+      <div class="container">
+        <h2><u>Skills</u></h2>
+        
+          <h3>Fundamentals of Cloud Computing</h3>
+          <h3>Database-RDBMS</h3>
+          <h3>Computer Animation</h3>
+          <h3>Data analytics using R</h3>
+       
+      </div>
+    </div>
+
+    <div class="frame" id="projects">
+      <div class="container">
+        <h2><u>Projects</u></h2>
+        <ul>
+          <li>
+            <h3>Project 1</h3>
+            <p>Implementation of Health-care chatbot using Artificial Intelligence</p>
+          </li>
+          <li>
+            <h3>Technical paper</h3>
+            <p>A research paper on "Role of AI in Daily Journals"</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="frame" id="contact">
+      <div class="container">
+        <h2><u>Contact Me</u></h2>
+        <form onsubmit="return false;">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button onclick="sendMessage()">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<script src="javascript.js"></script>
+</body>
+</html>
